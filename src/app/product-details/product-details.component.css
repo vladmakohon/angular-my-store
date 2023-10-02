@@ -1,0 +1,35 @@
+.product {
+  padding: 16px;
+  max-width: 840px;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 320px;
+  width: 320px;
+}
+
+@media (min-width: 720px) {
+  img {
+    height: 420px;
+    width: 420px;
+  }
+}
+
+.product-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-container h4 {
+  margin: 0;
+}

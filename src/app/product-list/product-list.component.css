@@ -1,5 +1,4 @@
 .list-container {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -14,17 +13,19 @@
 
 .product-card {
   border: 1px solid rgb(180, 180, 180);
-  background-color: rgb(255, 240, 240);
+  background-color: hsl(100, 50%, 90%);
   border-radius: 1%;
+}
+
+.product-card:hover {
+  background-color: hsl(100, 40%, 85%);
 }
 
 .product-image {
   width: 300px;
   height: 200px;
-  object-fit: cover;
-  object-position: center bottom;
+  object-fit: contain;
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.

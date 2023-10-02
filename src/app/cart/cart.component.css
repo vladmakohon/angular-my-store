@@ -1,0 +1,15 @@
+.shipping-link {
+  text-decoration: underline;
+  font-size: 16px;
+  color: navy;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.item-pic {
+  width: 80px;
+  height: 80px;
+}

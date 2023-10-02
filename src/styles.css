@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-router-outlet + *  {
+router-outlet + * {
   padding: 16px;
 }
 
@@ -29,10 +29,6 @@ h1 {
 
 h2 {
   font-size: 20px;
-}
-
-h1, h2 {
-  font-weight: lighter;
 }
 
 p {
@@ -57,7 +53,7 @@ input {
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
-  border: 1px solid #BDBDBD;
+  border: 1px solid #bdbdbd;
 }
 
 label {
@@ -69,24 +65,26 @@ label {
 }
 
 /* Button */
-.button, button {
+.button,
+button {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #1976d2;
+  background-color: #616161;
   color: white;
   border: none;
 }
 
-.button:hover, button:hover {
+.button:hover,
+button:hover {
   opacity: 0.8;
-  font-weight: normal;
 }
 
-.button:disabled, button:disabled {
+.button:disabled,
+button:disabled {
   opacity: 0.5;
   cursor: auto;
 }
@@ -95,12 +93,7 @@ label {
 
 .fancy-button {
   background-color: white;
-  color: #1976d2;
-}
-
-.fancy-button i.material-icons {
-  color: #1976d2;
-  padding-right: 4px;
+  color: #616161;
 }
 
 /* Top Bar */
@@ -108,7 +101,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: #616161;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -123,7 +116,8 @@ app-top-bar h1 {
 
 /* Checkout Cart, Shipping Prices */
 
-.cart-item, .shipping-item {
+.cart-item,
+.shipping-item {
   width: 100%;
   min-width: 400px;
   max-width: 450px;
@@ -133,7 +127,7 @@ app-top-bar h1 {
   padding: 16px 32px;
   margin-bottom: 8px;
   border-radius: 2px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 /*
